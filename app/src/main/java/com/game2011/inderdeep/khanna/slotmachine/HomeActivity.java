@@ -1,5 +1,6 @@
 package com.game2011.inderdeep.khanna.slotmachine;
 
+import android.content.Intent;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,8 +16,8 @@ public class HomeActivity extends AppCompatActivity {
 
     public void onPlayButtonClicked(View v)
     {
-//        Intent openPlayActivity = new Intent(this,PlayActivity.class);
-//        startActivity(openPlayActivity);
+        Intent openGameActivity = new Intent(this,GameActivity.class);
+        startActivity(openGameActivity);
     }
 
     public void onQuitButtonClicked(View v)
