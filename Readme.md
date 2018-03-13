@@ -1,4 +1,4 @@
-# XV-Puzzle
+# Slot-Machine
 
 <img width="178" height="178"
      title="Size Limit logo" src="./ASSETS_FILES/AppIcon.png">
